@@ -1,0 +1,55 @@
+use biblioteca
+db.libros.drop()
+
+db.libros.insertMany([
+  {
+    _id: 1,
+    titulo: "Dune",
+    autor: "Frank Herbert",
+    genero: "Ciencia ficción",
+    paginas: 412,
+    ejemplares: 12,
+    puntuaciones: [5, 5, 4, 5],
+    disponible: true
+  },
+  {
+    _id: 2,
+    titulo: "1984",
+    autor: "George Orwell",
+    genero: "Ciencia ficción",
+    paginas: 328,
+    ejemplares: 6,
+    puntuaciones: [5, 4, 4, 5],
+    disponible: true
+  },
+  {
+    _id: 3,
+    titulo: "El Hobbit",
+    autor: "J.R.R. Tolkien",
+    genero: "Fantasía",
+    paginas: 310,
+    ejemplares: 0,
+    puntuaciones: [5, 5, 5],
+    disponible: false
+  },
+  {
+    _id: 4,
+    titulo: "Fundación",
+    autor: "Isaac Asimov",
+    genero: "Ciencia ficción",
+    paginas: 255,
+    ejemplares: 0,
+    puntuaciones: [4, 4, 3],
+    disponible: false
+  },
+  {
+    _id: 5,
+    titulo: "Juego de tronos",
+    autor: "George R.R. Martin",
+    genero: "Fantasía",
+    paginas: 694,
+    ejemplares: 4,
+    puntuaciones: [5, 4, 5, 5],
+    disponible: true
+  }
+])
