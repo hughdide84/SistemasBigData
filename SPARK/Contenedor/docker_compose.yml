@@ -1,5 +1,6 @@
 services:
   spark-master:
+    container_name: spark-cluster-master
     image: apache/spark:4.1.1
     ports:
       - "9980:8080"
@@ -8,6 +9,15 @@ services:
       bash -lc "/opt/spark/sbin/start-master.sh --host 0.0.0.0 --port 7077 --webui-port 8080 && tail -F /opt/spark/logs/*"
 
   spark-worker:
+    container_name: spark-cluster-worker1
+    image: apache/spark:4.1.1
+    depends_on:
+      - spark-master
+    command: >
+      bash -lc "/opt/spark/sbin/start-worker.sh spark://spark-master:7077 && tail -F /opt/spark/logs/*"
+
+  spark-worker-2:
+    container_name: spark-cluster-worker2
     image: apache/spark:4.1.1
     depends_on:
       - spark-master
