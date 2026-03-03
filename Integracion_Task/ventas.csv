@@ -1,0 +1,13 @@
+id_venta,cliente,ciudad,producto,precio,unidades,fecha
+1001," Juan Pérez "," Madrid ","teclado","12,50",1,2024-01-02
+1002,"Ana López","barcelona","ratón","-15,00",1,02/01/2024
+1003,"","Sevilla","monitor","199,99",1,2024-01-03
+1004,"Luis Gómez","VALENCIA","teclado","abc",2,2024-01-04
+1005,"Marta Ruiz","Madrid","monitor","249.90",1,2024/01/05
+1006,"Óscar","  Bilbao","ratón","19,99","2",2024-01-06
+1001," Juan Pérez "," Madrid ","teclado","12,50",1,2024-01-02
+1007,"Rebeca","Valencia","monitor","0",1,2024-01-07
+1008,"Pepe","Barcelona","ratón","17,50",0,2024-01-08
+1009,"Lucía","Sevilla","monitor","179,99",1,13-01-2024
+1010,"Hugo","MADRID","teclado","39,90",1,
+1011,"Ana López","Barcelona","ratón","17,50",1,2024-01-02
