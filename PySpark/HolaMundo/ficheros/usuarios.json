@@ -1,0 +1,12 @@
+{"id_usuario": 1, "email": "USER1@MAIL.COM", "edad": "25", "pais": "España", "timestamp": "2024-01-01 12:00:00"}
+{"id_usuario": 2, "email": " user2@mail.com ", "edad": null, "pais": "España", "timestamp": "01-01-2024 12:05:00"}
+{"id_usuario": 3, "email": "user3@mail.com", "edad": "17", "pais": "ESPAÑA", "timestamp": "2024/01/01 12:10:00"}
+{"id_usuario": 4, "email": "user4@mail.com", "edad": "-3", "pais": "Portugal", "timestamp": "2024-01-01T12:15:00"}
+{"id_usuario": 5, "email": "USER5@MAIL.COM", "edad": "130", "pais": "España", "timestamp": "2024-01-01 12:20:00"}
+{"id_usuario": 6, "email": "user6@mail.com", "edad": "abc", "pais": "España", "timestamp": "2024-01-01 12:25:00"}
+{"id_usuario": 7, "email": null, "edad": "44", "pais": "España", "timestamp": "2024-01-01 12:30:00"}
+{"id_usuario": 1, "email": "USER1@MAIL.COM", "edad": "25", "pais": "España", "timestamp": "2024-01-01 12:00:00"}
+{"id_usuario": 8, "email": "user8@mail.com", "edad": "31", "pais": " España ", "timestamp": "2024-01-01 12:35:00"}
+{"id_usuario": 9, "email": "user9@mail.com", "edad": "29", "pais": "España", "timestamp": null}
+{"id_usuario": 10, "email": "USER10@MAIL.COM ", "edad": "22", "pais": "España", "timestamp": "2024-01-01 12:40:00"}
+{"id_usuario": 11, "email": "user11@mail.com", "edad": "0", "pais": "España", "timestamp": "2024-01-01 12:45:00"}
