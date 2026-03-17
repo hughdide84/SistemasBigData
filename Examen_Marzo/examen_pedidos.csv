@@ -1,0 +1,9 @@
+id_pedido,id_cliente,producto,cantidad,precio
+1001,1,Portátil,1,900
+1002,2,Tablet,2,300
+1003,3,Monitor,1,200
+1004,4,Teclado,3,50
+1005,5,Impresora,1,150
+1006,6,Tablet,2,300
+1007,6,Tablet,2,300
+1008,3,Ratón,2,25

@@ -1,0 +1,89 @@
+<ventas>
+    <venta>
+        <id_venta>1</id_venta>
+        <cliente> Ana López </cliente>
+        <ciudad>madrid</ciudad>
+        <producto>Portátil</producto>
+        <categoria>Informática</categoria>
+        <cantidad>2</cantidad>
+        <precio_unitario>799.99</precio_unitario>
+        <fecha>2025-01-10</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>2</id_venta>
+        <cliente></cliente>
+        <ciudad>barcelona</ciudad>
+        <producto> Ratón </producto>
+        <categoria>Informática</categoria>
+        <cantidad>1</cantidad>
+        <precio_unitario>25.50</precio_unitario>
+        <fecha>10/01/2025</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>3</id_venta>
+        <cliente>Carlos Ruiz</cliente>
+        <ciudad>VALENCIA</ciudad>
+        <producto>Teclado</producto>
+        <categoria>Informática</categoria>
+        <cantidad>2</cantidad>
+        <precio_unitario>abc</precio_unitario>
+        <fecha>2025-01-11</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>4</id_venta>
+        <cliente>Lucía Pérez</cliente>
+        <ciudad></ciudad>
+        <producto>Monitor</producto>
+        <categoria>Informática</categoria>
+        <cantidad></cantidad>
+        <precio_unitario>199.99</precio_unitario>
+        <fecha>2025/01/12</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>5</id_venta>
+        <cliente>Mario Gil</cliente>
+        <ciudad>Sevilla</ciudad>
+        <producto>Impresora</producto>
+        <categoria>Oficina</categoria>
+        <cantidad>1</cantidad>
+        <precio_unitario>149.50</precio_unitario>
+        <fecha>2025-01-13</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>5</id_venta>
+        <cliente>Mario Gil</cliente>
+        <ciudad>Sevilla</ciudad>
+        <producto>Impresora</producto>
+        <categoria>Oficina</categoria>
+        <cantidad>1</cantidad>
+        <precio_unitario>149.50</precio_unitario>
+        <fecha>2025-01-13</fecha>
+    </venta>
+
+    <venta>
+        <id_venta>6</id_venta>
+        <cliente>Elena Soto</cliente>
+        <ciudad>Bilbao</ciudad>
+        <producto>Tablet</producto>
+        <categoria>Electrónica</categoria>
+        <cantidad>3</cantidad>
+        <precio_unitario>300</precio_unitario>
+        <fecha></fecha>
+    </venta>
+
+    <venta>
+        <id_venta>7</id_venta>
+        <cliente>Pedro Martín</cliente>
+        <ciudad> madrid </ciudad>
+        <producto>tablet</producto>
+        <categoria>electrónica</categoria>
+        <cantidad>-1</cantidad>
+        <precio_unitario>250.00</precio_unitario>
+        <fecha>2025-01-14</fecha>
+    </venta>
+</ventas>
