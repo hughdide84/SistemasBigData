@@ -10,9 +10,11 @@ RUN apt-get update \
       openjdk-17-jre-headless \
  && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir pyspark
-
-# Requests
-RUN pip install --no-cache-dir pyspark requests
+RUN pip install --no-cache-dir \
+      pyspark \
+      numpy \
+      requests \
+      pandas \
+      pyarrow
 
 WORKDIR /work
